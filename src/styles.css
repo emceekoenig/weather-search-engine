@@ -1,0 +1,122 @@
+.container {
+  margin-top: 50px;
+  width: 100%;
+}
+
+.card {
+  background-color: #ffa589;
+  border-style: none;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.8);
+  color: white;
+  margin: 0 auto;
+  text-align: center;
+  width: fit-content;
+}
+
+.card-body {
+  padding-bottom: 0;
+  width: 600px;
+}
+
+.search-form {
+  border-style: none;
+  border-radius: 5px;
+  color: rgb(52, 51, 51);
+  margin: 20px 0 20px 0;
+  padding: 10px 25px 10px 25px;
+  text-align: left;
+  width: auto;
+}
+
+.btn-light {
+  color: rgb(52, 51, 51);
+  padding: 5px 10px;
+  width: fit-content;
+}
+
+.temp {
+  font-size: 50px;
+  font-weight: 400;
+  margin-right: -7px;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.city {
+  margin-left: -40px;
+}
+
+.location-input {
+  background: #ffdacf;
+  border-style: none;
+  border-radius: 5px;
+  color: black;
+  font-size: 25px;
+  margin: 20px 0 20px 0;
+  padding: 10px 15px 10px 15px;
+  text-align: left;
+  width: 90%;
+}
+
+img:hover {
+  opacity: 0.3;
+  cursor: pointer;
+}
+
+.col-4 {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.col-5 {
+  margin-top: 20px;
+  padding-right: 40px;
+  text-align: right;
+}
+
+.units {
+  font-size: 20px;
+  position: relative;
+  top: -20px;
+}
+
+.col-3 {
+  font-size-adjust: inherit;
+  margin-top: 20px;
+  margin-right: auto;
+  text-align: right;
+  width: auto;
+}
+
+.vr {
+  color: white;
+  margin-top: 20px;
+  height: 180px;
+  width: 2px;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: 400;
+}
+
+.table {
+  color: white;
+  margin: 0 25px 25px 25px;
+  width: 90%;
+}
+
+.weather-emojis {
+  font-size: 50px;
+  line-height: 35px;
+}
