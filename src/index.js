@@ -43,9 +43,9 @@ function showTemperature(response) {
   document.querySelector("#description").innerHTML =
     response.data.weather[0].main;
   document.querySelector("#first-hi").innerHTML =
-    response.list.main[0].temp_max;
+    response.data.list[0].main.temp_max;
   document.querySelector("#first-lo").innerHTML =
-    response.data.list.main[0].temp_min;
+    response.data.list[0].main.temp_min;
   document.querySelector("#second-hi").innerHTML =
     response.data.list[1].main.temp_max;
   document.querySelector("#second-lo").innerHTML =
